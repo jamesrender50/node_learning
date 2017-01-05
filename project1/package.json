@@ -1,0 +1,27 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.2",
+    "underscore": "1.8.3"
+  },
+  "devDependencies": {
+    "debug" : "2.2.0"
+  },
+  "scripts": {
+    "prestart" : "echo \"the prestart script\"",
+    "start" : "echo $1",
+    "stop" : "echo \"the stop script\"",
+    "poststart" : "echo \"the poststop script\"",
+    "restart" : "echo \"the restart script\"",
+    "james" : "echo \"my james script\"",
+    "prejames" : "echo \"my prejames script\"",
+    "postjames" : "echo \"my postjames script\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },
+  "author": "u448843",
+  "license": "ISC"
+}
